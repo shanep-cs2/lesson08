@@ -1,4 +1,4 @@
-# lesson04 - Warmup
+# lesson08 - Abstract Class
 
 - name: TODO
 - email: TODO
