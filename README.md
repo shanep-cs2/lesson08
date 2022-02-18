@@ -1,4 +1,4 @@
-# lesson08 - Abstract Class
+# lesson08 - Polymorphism
 
 - name: TODO
 - email: TODO
