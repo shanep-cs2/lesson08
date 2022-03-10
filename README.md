@@ -10,6 +10,10 @@ the same method you can get different results! This may sound really confusing a
 complex, but it enables software engineers to write really elegant code and is an incredibly
 powerful tool!
 
+## Videos
+
+- [Lab Overview]()
+
 ## Learning Objectives
 
 - Create polymorphic code
