@@ -10,9 +10,10 @@ the same method you can get different results! This may sound really confusing a
 complex, but it enables software engineers to write really elegant code and is an incredibly
 powerful tool!
 
-## Videos
+## Important links
 
 - [Lab Overview]()
+- [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
 
 ## Learning Objectives
 
