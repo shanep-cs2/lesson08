@@ -4,11 +4,11 @@
 
 Polymorphism is one of the most powerful abstractions that exist in object oriented (OO)
 programming. Polymorphism simply means many forms. One way to realized polymorphism is to create a
-collection of objects that can consist of several different types that share the same base class.
-Thus, the objects all look like they are the same but if you iterate through each of them and call
-the same method you can get different results! This may sound really confusing and unnecessarily
-complex, but it enables software engineers to write really elegant code and is an incredibly
-powerful tool!
+collection of objects that can consist of several different types that share the same base class or
+implement the same interface. Thus, the objects all look like they are the same but if you iterate
+through each of them and call the same method you can get different results! This may sound really
+confusing and unnecessarily complex, but it enables software engineers to write really elegant code
+and is an incredibly powerful tool!
 
 ## Important links
 
@@ -23,34 +23,28 @@ powerful tool!
 - Create derived classes
 - Use an ArrayList to from the Java API
 
-## Task 1 - Write Unit Tests
+## Test 1 - Implement a derived class
 
-You need to complete the PlantTest and TreeTest classes to ensure that your code is correct. Once
-you have your tests written you can move on to complete the Plant and Tree classes
+You are given an interface named **Student.java** and need to implement the classes CollegeStudent,
+and GradeSchoolStudent. Each class will need to have a constructor created that will take **one**
+argument to set the name of the student.
 
-## Test 2 - Implement a derived class
+## Task 2 - Write Unit Tests
 
-Given a base Plant class your job is to implement a derived Tree class and complete the methods.
+You need to complete the StudentTest Class with a few tests to your code is correct.
 
-## Task 3 - Implement the App class
+## Task 3 - Explore the App class
 
-Complete the App class (which contains the main method) that will use an
-ArrayList collection to store objects that belong to either the Plant class or the
-Tree class.
+Explore the App class (which contains the main method) that will use an ArrayList collection to
+store objects of the Student type. Note how each object **knows** what class it is even though the
+ArrayList thinks it only has Students!
 
-```java
-ArrayList<Plant> plants = new ArrayList<Plant>();
-```
+## Task 4 - Complete the Retrospective
 
-The code above takes advantage of Java generics to make our code simpler. You are not expected to
-understand generics yet, we will formally study generics in a later module. In the App class create
-a method called `printAllPlants()`, that will iterate through all the plants in the `plants`
-ArrayList and call `printPlant()`.  Finally your program should be able to read plants from standard
-input and create either a Plant class or a Tree class.
+Once you have completed all the tasks open the file **Retrospective.md** and complete each section
+with a TODO comment. 
 
-## Task 3 - System testing
+## Task 5 - Add, Commit, Push your code
 
-Just as you did in the previous lab you are going to do some system testing using the terminal using
-input [redirections](https://www.gnu.org/software/bash/manual/html_node/Redirections.html) to have
-our program read from a file without having to type everything in by hand.  There is a sample text
-file in your repository that you can use for testing.
+Once you are finished you need to make sure that you have pushed all your code to GitHub for
+grading!

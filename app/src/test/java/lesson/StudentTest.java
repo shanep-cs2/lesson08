@@ -3,10 +3,6 @@ package lesson;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
-public class PlantTest {
+public class StudentTest {
 
-    @Test
-    public void testSomething() {
-
-    }   
 }
