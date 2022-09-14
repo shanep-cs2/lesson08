@@ -21,7 +21,6 @@ and is an incredibly powerful tool!
 - Create polymorphic code
 - Explore how inheritance enables polymorphism
 - Create derived classes
-- Use an ArrayList to from the Java API
 
 ## Test 1 - Implement a derived class
 
