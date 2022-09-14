@@ -31,7 +31,7 @@ argument to set the name of the student.
 
 ## Task 2 - Write Unit Tests
 
-You need to complete the StudentTest Class with a few tests to your code is correct.
+You need to complete the StudentTest Class with a few tests to ensure your code is correct.
 
 ## Task 3 - Explore the App class
 
